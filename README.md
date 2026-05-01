@@ -5,7 +5,7 @@ Troy Baker - Global 360 - QA Engineer Assessment
 
 This project was built with:
 
-- Node.js v18.20.8
+- Node.js v18.20.8(via node --version) - NOTE: the version in `package.json` says "@types/node": "^25.6.0" possibly due to MacBook Pro 2017 being used to for the assessment being outdated and can only use certain versions 
 - Playwright Version 1.59.1
 
 ## Setup
@@ -28,6 +28,4 @@ npx playwright test
 
 ## Notes
 
-This project may use an older version of Node.js/Playwright. 
-If you encounter issues, check the versions in `package.json` 
-and ensure your Node.js version is compatible.
+This project may use an older version of Node.js/Playwright, ensure your Node.js version is compatible.
